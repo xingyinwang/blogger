@@ -1,5 +1,5 @@
 #SQL代码来源【https://blog.csdn.net/xp541130126/article/details/70163081】
-drop database if exists db_blog;
+/*drop database if exists db_blog;
 create database db_blog;
 use db_blog;
 create table t_blogger(
@@ -11,4 +11,5 @@ create table t_blogger(
     sign varchar(100) default null comment '博主签名',
     imagename varchar(100) default null comment '博主头像路径',
     primary key (id)
-) engine=Innodb auto_increment=2 default charset=utf8;
+) engine=Innodb auto_increment=2 default charset=utf8;*/
+

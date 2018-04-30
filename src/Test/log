@@ -1,0 +1,150 @@
+D:\Java\tomcat\apache-tomcat-8.0.44\bin\catalina.bat run
+[2018-04-30 07:38:33,974] Artifact blogger:war exploded: Server is not connected. Deploy is not available.
+Using CATALINA_BASE:   "C:\Users\Cser_W\.IntelliJIdea2017.1\system\tomcat\Unnamed_blogger"
+Using CATALINA_HOME:   "D:\Java\tomcat\apache-tomcat-8.0.44"
+Using CATALINA_TMPDIR: "D:\Java\tomcat\apache-tomcat-8.0.44\temp"
+Using JRE_HOME:        "D:\Java\Java8\JDK"
+Using CLASSPATH:       "D:\Java\tomcat\apache-tomcat-8.0.44\bin\bootstrap.jar;D:\Java\tomcat\apache-tomcat-8.0.44\bin\tomcat-juli.jar"
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.44
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 10 2017 17:21:09 UTC
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.44.0
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\Java8\JDK\jre
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Cser_W\.IntelliJIdea2017.1\system\tomcat\Unnamed_blogger
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\tomcat\apache-tomcat-8.0.44
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Cser_W\.IntelliJIdea2017.1\system\tomcat\Unnamed_blogger\conf\logging.properties
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dvisualvm.id=181867708784397
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\Java\tomcat\apache-tomcat-8.0.44\endorsed
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Cser_W\.IntelliJIdea2017.1\system\tomcat\Unnamed_blogger
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\tomcat\apache-tomcat-8.0.44
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\tomcat\apache-tomcat-8.0.44\temp
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+30-Apr-2018 19:38:40.598 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+30-Apr-2018 19:38:41.800 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+30-Apr-2018 19:38:42.503 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+30-Apr-2018 19:38:42.550 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+30-Apr-2018 19:38:42.550 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4038 ms
+30-Apr-2018 19:38:42.659 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Apr-2018 19:38:42.659 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.44
+30-Apr-2018 19:38:42.690 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+30-Apr-2018 19:38:42.784 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+30-Apr-2018 19:38:42.800 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 253 ms
+Connected to server
+[2018-04-30 07:38:42,879] Artifact blogger:war exploded: Artifact is being deployed, please wait...
+30-Apr-2018 19:38:48.229 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2018-04-30 07:38:48,589] Artifact blogger:war exploded: Artifact is deployed successfully
+[2018-04-30 07:38:48,604] Artifact blogger:war exploded: Deploy took 5,710 milliseconds
+30-Apr-2018 19:38:53.201 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Java\tomcat\apache-tomcat-8.0.44\webapps\manager
+30-Apr-2018 19:38:53.521 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Java\tomcat\apache-tomcat-8.0.44\webapps\manager has finished in 317 ms
+30-Apr-2018 19:38:57.584 信息 [http-apr-8080-exec-9] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'blog-dispacher': initialization started
+30-Apr-2018 19:38:57.662 信息 [http-apr-8080-exec-9] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'blog-dispacher-servlet': startup date [Mon Apr 30 19:38:57 CST 2018]; root of context hierarchy
+30-Apr-2018 19:38:57.928 信息 [http-apr-8080-exec-9] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from file [E:\秒杀系统\blogger\target\blogger\WEB-INF\classes\spring\spring-dao.xml]
+30-Apr-2018 19:38:59.162 信息 [http-apr-8080-exec-9] org.springframework.context.support.PropertySourcesPlaceholderConfigurer.loadProperties Loading properties file from class path resource [jdbc.properties]
+30-Apr-2018 19:38:59.303 信息 [http-apr-8080-exec-9] com.mchange.v2.log.MLog.<clinit> MLog clients using java 1.4+ standard logging.
+30-Apr-2018 19:38:59.412 信息 [http-apr-8080-exec-9] com.mchange.v2.c3p0.C3P0Registry.banner Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+19:39:00.318 [http-apr-8080-exec-9] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+30-Apr-2018 19:39:00.381 警告 [http-apr-8080-exec-9] org.springframework.web.context.support.XmlWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in file [E:\秒杀系统\blogger\target\blogger\WEB-INF\classes\spring\spring-dao.xml]: Invocation of init method failed; nested exception is java.io.FileNotFoundException: class path resource [ mybatis-config.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:736)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:630)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:678)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:549)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:490)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:817)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2521)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2510)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: class path resource [ mybatis-config.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:361)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:343)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 34 more
+
+30-Apr-2018 19:39:00.381 严重 [http-apr-8080-exec-9] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in file
+ [E:\秒杀系统\blogger\target\blogger\WEB-INF\classes\spring\spring-dao.xml]:
+  Invocation of init method failed; nested exception is java.io.FileNotFoundException: class path resource [ mybatis-config.xml]
+  cannot be opened because it does not exist
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:736)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:664)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:630)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:678)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:549)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:490)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1227)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1140)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:817)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1132)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2521)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2510)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: class path resource [ mybatis-config.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:361)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:343)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 34 more
+

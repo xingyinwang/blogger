@@ -11,7 +11,8 @@
         开启后mybatis会自动帮我们把表中name的值赋到对应实体的title属性中
         -->
         <setting name="useColumnLabel" value="true"/>
-        <setting name="mapUnderscoreToCamelcase" value="true"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
+
 
 </configuration>

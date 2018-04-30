@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wxy.mapper.BlogUserMapper">
+    <insert id="register" parameterType="com.wxy.entity.BlogUser">
+        INSERT INTO blog_user VALUES (#{userId}, #{userName},#{password},
+                              #{nickName}, #{question}, #{answer});
+    </insert>
+</mapper>
