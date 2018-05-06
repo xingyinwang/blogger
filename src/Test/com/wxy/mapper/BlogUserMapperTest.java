@@ -13,18 +13,31 @@ import static org.junit.Assert.*;
  * Created by Cser_W on 2018/4/30.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-
 @ContextConfiguration("classpath:spring/spring-dao.xml")
 public class BlogUserMapperTest {
+
     @Autowired
-    private BlogUserMapper blogUserMapper;
+    private BlogUserMapper blogUserMapper ;
+
+    @Test
+    public void getBlogUserByNameAndPassword() throws Exception {
+        BlogUser user = blogUserMapper.getBlogUserByNameAndPassword("wxy","123");
+        System.out.println(user.toString());
+    }
+
+    @Test
+    public void getBlogUserById() throws Exception {
+        BlogUser blogUser = blogUserMapper.getBlogUserById(2);
+        System.out.println(blogUser.toString());
+    }
+
     @Test
     public void register() throws Exception {
         BlogUser blogUser = new BlogUser();
-        blogUser.setUserId(2);
-        blogUser.setUserName("wxy");
-        blogUser.setPassword("123");
-        blogUser.setNickName("王子");
+        blogUser.setUserId(7);
+        blogUser.setUserName("zcj");
+        blogUser.setPassword("321");
+        blogUser.setNickName("haha");
         blogUser.setQuestion("how are you?");
         blogUser.setAnswer("good boy");
         blogUserMapper.register(blogUser);

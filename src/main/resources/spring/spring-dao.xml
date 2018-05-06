@@ -26,6 +26,8 @@
         <property name="checkoutTimeout" value="1000"/>
         <!--获取链接失败重试次数-->
         <property name="acquireRetryAttempts" value="2"/>
+        <!--wxy ：关闭缓存 -->
+        <!--<property name="maxStatements" value="10"/>-->
     </bean>
     <!--3，配置SqlSessionFactory对象-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">

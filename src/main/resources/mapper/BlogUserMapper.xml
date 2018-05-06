@@ -6,4 +6,21 @@
         INSERT INTO blog_user VALUES (#{userId}, #{userName},#{password},
                               #{nickName}, #{question}, #{answer});
     </insert>
+
+
+    <resultMap id="BlogUserResultMap" type="com.wxy.entity.BlogUser">
+        <id property="userId" column="userId"/>
+        <result property="userName" column="userName"/>
+        <result property="password" column="password"/>
+        <result property="nickName" column="nickName"/>
+        <result property="question" column="question"/>
+        <result property="answer" column="answer"/>
+    </resultMap>
+    <select id="getBlogUserById" parameterType="int" resultMap="BlogUserResultMap">
+        SELECT * FROM blog_user WHERE userId=#{id};
+    </select>
+
+    <select id="getBlogUserByNameAndPassword" resultMap="BlogUserResultMap">
+        SELECT * FROM blog_user WHERE userName=#{userName} AND password=#{password}
+    </select>
 </mapper>
