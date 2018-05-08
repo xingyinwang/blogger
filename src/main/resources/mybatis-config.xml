@@ -14,5 +14,11 @@
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
 
+    <typeAliases>
+        <typeAlias type="com.wxy.entity.BlogArticle" alias="article"/>
+        <typeAlias type="com.wxy.entity.BlogReview" alias="review"/>
+        <typeAlias type="com.wxy.entity.BlogUser" alias="user"/>
+    </typeAliases>
+
 
 </configuration>

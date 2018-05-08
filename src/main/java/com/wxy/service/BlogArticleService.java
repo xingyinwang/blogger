@@ -1,4 +1,4 @@
-package com.wxy.mapper;
+package com.wxy.service;
 
 import com.wxy.entity.BlogArticle;
 import com.wxy.entity.BlogUser;
@@ -6,9 +6,9 @@ import com.wxy.entity.BlogUser;
 import java.util.ArrayList;
 
 /**
- * Created by Cser_W on 2018/4/30.
+ * Created by Cser_W on 2018/5/8.
  */
-public interface BlogArticleMapper {
+public interface BlogArticleService {
 
     int writeBlog(BlogArticle blogArticle);
 
@@ -21,5 +21,4 @@ public interface BlogArticleMapper {
     ArrayList<BlogArticle> getAllArticle();
 
     ArrayList<BlogArticle> getUserArticles(BlogUser blogUser);
-
 }

@@ -9,6 +9,15 @@ public class BlogArticle {
     private String title;
     private String context;
     private int hasRead;
+    private String date;
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 
     public int getArticleId() {
         return articleId;

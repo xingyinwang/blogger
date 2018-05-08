@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wxy.mapper.BlogArticleMapper">
+
+    <insert id="writeBlog" parameterType="com.wxy.entity.BlogArticle">
+        INSERT INTO  blog_article VALUES (#{articleId},#{userId},#{title},#{context},#{date},#{hasRead})
+    </insert>
+
+    <select id="getArticleById" parameterType="int" resultType="com.wxy.entity.BlogArticle">
+        select * from blog_article WHERE articleId=#{id}
+    </select>
+    <select id="getAllArticle" resultType="article">
+        SELECT * FROM blog_article
+    </select>
+
+    <select id="getUserArticles" parameterType="user" resultType="article">
+        SELECT * FROM blog_article WHERE userId=#{userId}
+    </select>
+
+    <delete id="deleteArticleById" parameterType="int">
+        DELETE FROM blog_article WHERE articleId=#{id};
+    </delete>
+
+    <update id="updateArticleById" parameterType="article">
+        UPDATE  blog_article SET
+        userId=#{userId},
+        title=#{title},
+        content=#{context},
+        date=#{date},
+        hasRead=#{hasRead}
+        WHERE articleId=#{articleId}
+    </update>
+</mapper>
